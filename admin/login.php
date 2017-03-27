@@ -11,8 +11,8 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
 <head>
   <meta charset="utf-8">
   <title>Admin Login</title>
-  <link rel="stylesheet" href="../style/normalize.css">
-  <link rel="stylesheet" href="../style/main.css">
+
+  <link rel="stylesheet" href="../style/new.css">
 </head>
 <body>
 
@@ -43,9 +43,10 @@ if( $user->is_logged_in() ){ header('Location: index.php'); }
 	?>
 
 	<form action="" method="post">
+	<h3 align="center">Admin login info:</h3>
 	<p><label>Username</label><input type="text" name="username" value=""  /></p>
 	<p><label>Password</label><input type="password" name="password" value=""  /></p>
-	<p><label></label><input type="submit" name="submit" value="Login"  /></p>
+	<p align="center" id="colbtn"><label></label><input type="submit" name="submit" value="Login"  /></p>
 	</form>
 
 </div>

@@ -125,11 +125,15 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    color: green;
+
 }
 
 h2 {
     font-size: 1.5em;
     margin: 0.83em 0;
+    color: blue;
+    
 }
 
 h3 {
