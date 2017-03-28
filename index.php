@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Blog</title>
-	<link rel="stylesheet" href="style/new.css">
+	<link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
